@@ -12,6 +12,8 @@ import java.util.Scanner;
 public class Main
 {
 
+    Student obj = new Student("33033", "Steve", "eyeheartJava@Java.com", 1995-10-06);
+
     public static void main( String[] args )
         throws ParseException
     {

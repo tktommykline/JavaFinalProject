@@ -27,6 +27,9 @@ public class StudentService
     public void showSummary()
     {
         //TODO implement
+        for(int i=0; i < students.size(); i++){
+            System.out.println(students.get(i));
+        } // print out a list of all the students added to the student ArrayList? Not sure what showSummary is supposed to do in detail.
     }
 
     public void enrollToCourse( String studentId, Course course )
